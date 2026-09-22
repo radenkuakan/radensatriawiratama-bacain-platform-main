@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Bacain - Baca, Raih dan Nikmati</title>
+
+    <!-- icon library -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="logo-navbar">
+        <img src="assets/logo-bacain.png" alt="Logo Bacain" />
+        <span class="logo-text">Bacain</span>
+      </a>
+      
+      <div class="search-bar">
+        <i data-feather="search"></i>
+        <input type="text" placeholder="Cari buku atau reviewer..." />
+      </div>
+      
+      <div class="nav-buttons">
+        <a href="#" class="btn-login">Login</a>
+        <a href="#" class="btn-daftar">Daftar</a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <main class="container">
+      <!-- Hero Section Start -->
+      <section class="hero" id="home">
+        <div class="hero-left">
+          <h1>Baca, Raih dan Nikmati</h1>
+          <div class="hero-card">
+            <p>
+              Selamat datang di Bacain, perpustakaan kampus digitalmu! Simpan koleksi
+              buku favoritmu, berikan review berharga, dan dapatkan poin yang bisa
+              ditukarkan dengan snack lezat!
+              <br />
+              <br />
+              Mulai baca sekarang!
+            </p>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <div class="app-card">
+            <h2>Unduh BACAIN<br />Mobile.</h2>
+            <div class="app-content">
+              <img src="assets/tampilan-mobile-bacain.png" alt="Mockup App" class="mockup-img" />
+              <div class="qr-code-area">
+                <img src="assets/bar-kode.png" alt="QR Code" class="qr-img" />
+                <p>Unduh di<br /><strong>Play Store</strong></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Hero Section End -->
+
+      <!-- leaderboard section startnya -->
+      <section class="leaderboard" id="leaderboard">
+        <div class="leaderboard-content">
+          <h2>Top 5 Best Reviewer</h2>
+          <div class="table-card">
+            <table cellspacing="0">
+              <thead>
+                <tr>
+                  <th>Username</th>
+                  <th>Jumlah Point</th>
+                  <th>Jumlah Bacaan</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><a href="#" class="reviewer-link">radenkukan</a></td>
+                  <td class="point-text">5050</td>
+                  <td>180</td>
+                </tr>
+                <tr>
+                  <td><a href="#" class="reviewer-link">Adillatus</a></td>
+                  <td class="point-text">5049</td>
+                  <td>171</td>
+                </tr>
+                <tr>
+                  <td><a href="#" class="reviewer-link">Zoerogf</a></td>
+                  <td class="point-text">3012</td>
+                  <td>83</td>
+                </tr>
+                <tr>
+                  <td><a href="#" class="reviewer-link">hanokokaiii</a></td>
+                  <td class="point-text">1870</td>
+                  <td>67</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <a href="#" class="link-more">Lihat lainnya...</a>
+        </div>
+        
+        <div class="mascot-area">
+          <img src="assets/logo-bacain.png" alt="Logo Bacain" class="brand-logo-large" />
+        </div>
+      </section>
+      <!-- leaderboard section end -->
+
+      <!-- books section start -->
+      <section class="books" id="books">
+        <h2>10 Buku Terpopuler</h2>
+        <div class="books-grid" id="books-grid"></div>
+        <a href="#" class="link-more">Lihat lainnya...</a>
+      </section>
+      <!-- books section end -->
+    </main>
+
+    <!-- footer start -->
+    <footer>
+      <div class="footer-top">
+        <img src="assets/logo-bacain.png" alt="Logo" class="footer-logo" />
+        <span class="footer-tagline">Baca, Raih dan Nikmati</span>
+      </div>
+      <div class="footer-divider"></div>
+      <div class="footer-bottom">
+        <p>Pendidikan Multimedia<br />&copy; 2026 Bacain</p>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <!-- script js -->
+    <script src="script.js"></script>
+  </body>
+</html>
